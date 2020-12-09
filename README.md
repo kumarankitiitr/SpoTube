@@ -14,3 +14,10 @@ A Youtube Audio Player
 
 <h4>Related Video Playlist</h4>
 <img src="https://firebasestorage.googleapis.com/v0/b/earn-778c4.appspot.com/o/SpoTube%2FScreenshot_20201209-114032.jpg?alt=media&token=c7d38f55-9bad-481f-8419-b1099d588507" width="400" height="700">
+
+<h4> Used Technologies</h4>
+<p> Kotlin </p>
+<p> Retrofit </p>
+<p> Youtube API </p>
+<p> Youtube-dl </p>
+<p> Room Databse </p>
