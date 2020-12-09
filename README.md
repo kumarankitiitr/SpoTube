@@ -31,3 +31,4 @@ A Youtube Audio Player (Not For Android 10)
 <p> Youtube-dl </p>
 <p> Room Databse </p>
 <p> Dagger Hilt </p>
+<p> Exo Player </p>
