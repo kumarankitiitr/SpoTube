@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SpoTube</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notification_channel_name">Music Channel</string>
+    <string name="notification_channel_description">Shows the currently playing music</string>
+    <string name="download_notification_channel_name">Download Channel</string>
+    <string name="download_notification_channel_des">Shows the downloads</string>
+</resources>

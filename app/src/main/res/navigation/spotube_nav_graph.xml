@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/spotube_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/downloadFragment"
+        android:name="in.programy.spotube.ui.fragment.DownloadFragment"
+        android:label="fragment_download"
+        tools:layout="@layout/fragment_download" >
+        <action
+            android:id="@+id/action_downloadFragment_to_songFragment"
+            app:destination="@id/songFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="in.programy.spotube.ui.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_songFragment"
+            app:destination="@id/songFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/songFragment"
+        android:name="in.programy.spotube.ui.fragment.SongFragment"
+        android:label="fragment_song"
+        tools:layout="@layout/fragment_song" >
+        <argument android:name="item"
+            app:argType="in.programy.spotube.model.Item"
+            app:nullable="true"/>
+        <action
+            android:id="@+id/action_songFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <argument
+            android:name="tag"
+            app:argType="integer" />
+        <argument
+            android:name="index"
+            app:argType="integer"
+            android:defaultValue="-1" />
+    </fragment>
+</navigation>
