@@ -1,5 +1,5 @@
 # SpoTube
-A Youtube Audio Player
+A Youtube Audio Player (Not For Android 10)
 
 <table>
   <tr>
