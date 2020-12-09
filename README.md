@@ -21,3 +21,4 @@ A Youtube Audio Player
 <p> Youtube API </p>
 <p> Youtube-dl </p>
 <p> Room Databse </p>
+<p> Dagger Hilt </p>
