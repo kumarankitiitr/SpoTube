@@ -25,6 +25,7 @@ A Youtube Audio Player (Not For Android 10)
   </table>
 
 <h4> Used Technologies</h4>
+<p> MVVM </p>
 <p> Kotlin </p>
 <p> Retrofit </p>
 <p> Youtube API </p>
